@@ -137,7 +137,7 @@ function fin() {
     for (let num = 1; num <= Question.nombre_question; num++)
         reponsex.reponse_joueur[num] == reponsev.reponse[num] ? score++ : 0;
     document.getElementById("quizzz").innerHTML = "<h3>Vous avez " + score + "/" + Question.nombre_question + "</h3>" +
-    "</br> <h5> Si vous voulais enregistrer votre score, continuer. </h5>";
+    "</br> <h5> Pour enregistrer votre score, continuer. </h5>";
     document.getElementById("name").innerHTML =  "<button class=\"btn btn-primary border-success align-items-center btn-success\" onclick=\"change_link(" +
     score + ")\" type=\"button\" ><i class=\"fa fa-angle-right\">Suivant</i></button>"
 }
